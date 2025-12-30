@@ -1,0 +1,56 @@
+.home {
+    .cards_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin-top: 22px;
+
+        .cards_block_txt {
+            margin: 0;
+        }
+
+        article {
+            width: 604px;
+            height: 173px;
+            border-radius: 6px;
+            border: 1px solid #E8E8E8;
+            margin-top: 29px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            &:hover {
+                box-shadow: 0px 4px 14px rgb(201, 201, 201);
+            }
+
+            .card_body {
+                margin-left: 42px;
+                margin-top: -30px;
+
+                .logo_block {
+                    .title_txt {
+                        color: #D23669;
+                    }
+
+                    p {
+                        color: #A5A5A5;
+                        font-size: 12px;
+                        font-weight: 700;
+                        margin-top: -30px;
+                    }
+                }
+
+                .desc_block {
+                    margin-top: 0px;
+
+                    span {
+                        display: block;
+                        font-size: 16px;
+                        font-weight: 700;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

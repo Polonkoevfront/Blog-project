@@ -1,0 +1,117 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .container {
+        margin-top: 170px;
+
+        .login_form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 396px;
+            height: 301px;
+            background: #fff;
+            border: 1px solid #E8E8E8;
+            border-radius: 5px;
+
+            .elements_block {
+                display: flex;
+                flex-direction: column;
+                margin-top: -30px;
+            }
+
+            .label {
+                width: 336px;
+                height: 42px;
+                background: #f3f3f3;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                margin-top: 25px;
+
+                &:focus {
+                    background: #ececec;
+                }
+
+                input {
+                    width: 318px;
+                    height: 36px;
+                    background: inherit;
+                    border: inherit;
+                    border-radius: inherit;
+                    outline: none;
+                    margin-left: 10px;
+                    margin-top: 1px;
+
+                }
+            }
+
+            Button {
+                margin-top: 37px;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .login {
+
+        .container {
+            margin-top: 170px;
+
+            .login_form {
+                width: 366px;
+                height: 273px;
+                background: #fff;
+                border: 1px solid #E8E8E8;
+                border-radius: 5px;
+
+                .elements_block {
+                    display: flex;
+
+                    .txt {
+                        font-size: 22px;
+                    }
+                }
+
+                .label {
+                    width: 310px;
+                    height: 40px;
+                    background: #f3f3f3;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    margin-top: 25px;
+
+                    &:focus {
+                        background: #ececec;
+                    }
+
+                    input {
+                        width: 290px;
+                        height: 34px;
+                        font-size: 12px;
+                        background: inherit;
+                        border: none;
+                        border-radius: inherit;
+                        outline: none;
+                        margin-left: 10px;
+                        margin-top: 1px;
+
+                    }
+                }
+
+                Button {
+                    width: 310px;
+                    height: 40px;
+                    font-size: 12px;
+                    margin-top: 37px;
+                }
+            }
+        }
+    }
+}

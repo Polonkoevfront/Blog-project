@@ -1,0 +1,35 @@
+.popup {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100px;
+    height: 66px;
+    background: #ffffff;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 0;
+    position: absolute;
+    top: 58px;
+
+    li,
+    .profile {
+        width: inherit;
+        height: 20px;
+        list-style: none;
+        border: 1px solid rgb(221, 221, 221);
+
+        &:hover {
+            color: #ffffff;
+            background: #D23669;
+        }
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    .profile {
+        color: #000000;
+        font-size: 14px;
+        text-decoration: none;
+    }
+}

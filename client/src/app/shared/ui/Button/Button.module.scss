@@ -1,0 +1,45 @@
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+    &.primary {
+        color: #ffffff;
+        background: #D23669;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background: #ac2f59;
+        }
+    }
+
+    &.outline {
+        color: #D23669;
+        border: 1px solid #D23669;
+    }
+
+    &.small {
+        width: 93px;
+        height: 30px;
+    }
+
+    &.normal {
+        width: 114px;
+        height: 30px;
+    }
+
+    &.big {
+        width: 123px;
+        height: 32px;
+    }
+
+    &.more {
+        width: 336px;
+        height: 42px;
+    }
+
+    &.huge {
+        width: 540px;
+        height: 40px;
+    }
+}

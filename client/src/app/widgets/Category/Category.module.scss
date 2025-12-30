@@ -1,0 +1,20 @@
+.category {
+    display: flex;
+    align-items: center;
+    width: 540px;
+    height: 41px;
+    background: #F5F5F5;
+    margin-top: 10px;
+    position: relative;
+
+    span {
+        font-size: 14px;
+        font-weight: 300;
+        margin-left: 15px;
+    }
+
+    img {
+        cursor: pointer;
+        margin-left: 370px;
+    }
+}
